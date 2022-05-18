@@ -1,0 +1,61 @@
+diff --git a/TensorFI/faultTypes.py b/TensorFI/faultTypes.py
+index 5ef44d3..d187468 100644
+--- a/TensorFI/faultTypes.py
++++ b/TensorFI/faultTypes.py
+@@ -166,8 +166,9 @@ def bitElementTensor( dtype, val):
+ def bitScalar( dtype, val):
+ 	"Flip one bit of the scalar value"
+ 	return dtype.type( randomBitFlip(val) )
++	
+ 
+-def bitTensor ( dtype, val):
++def bitTensor1 ( dtype, val):
+ 	"Flip one bit in all elements within the tensor"
+ 	# flatten the tensor into a vector and then restore the original shape in the end
+ 	valShape = val.shape
+diff --git a/TensorFI/fiConfig.py b/TensorFI/fiConfig.py
+old mode 100644
+new mode 100755
+index 8a349c0..3175251
+--- a/TensorFI/fiConfig.py
++++ b/TensorFI/fiConfig.py
+@@ -4,6 +4,9 @@ import numpy as np
+ from faultTypes import *
+ import yaml
+ import logging
++import importlib
++
++
+ 
+ # These are the list of supported Operations below (if you add a new Op, please add it here)
+ class Ops(Enum):
+@@ -70,6 +73,7 @@ class FaultTypes(Enum):
+ 	ELEM = "Rand-element"
+ 	ELEMbit = "bitFlip-element"
+ 	RANDbit = "bitFlip-tensor" 
++	RANDbit1= "bitFlip-tensore"
+ # End of FaultTypes
+ 
+ # These are the list of supported Fields below (if you add a new Field, please add it here)
+@@ -95,7 +99,7 @@ class FIConfig(object):
+ 		FaultTypes.ZERO.value : (zeroScalar, zeroTensor),
+ 		FaultTypes.ELEM.value : (randomElementScalar, randomElementTensor),
+ 		FaultTypes.ELEMbit.value : (bitElementScalar, bitElementTensor),
+-		FaultTypes.RANDbit.value : (bitScalar, bitTensor)
++		FaultTypes.RANDbit.value : (bitScalar, bitTensor1),
+ 	}
+ 
+ 	def faultConfigType(self, faultTypeScalar, faultTypeTensor):
+diff --git a/confFiles/default.yaml b/confFiles/default.yaml
+index 2622140..fdea1de 100644
+--- a/confFiles/default.yaml
++++ b/confFiles/default.yaml
+@@ -13,7 +13,7 @@
+ #   5) bitFlip-element - single bit-flip over one data item in the output of the target op
+ #   6) bitFlip-tensor - single bit-flip over all data items in the output of the target op 
+ ScalarFaultType: None
+-TensorFaultType: bitFlip-element 
++TensorFaultType: bitFlip-tensor
+ 
+ 
+ # Add the list of Operations and their probabilities here

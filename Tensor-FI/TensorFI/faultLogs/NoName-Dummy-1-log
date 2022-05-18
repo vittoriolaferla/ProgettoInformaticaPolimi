@@ -1,0 +1,23 @@
+Starting log at 2022-05-04 15:31:06.574993
+
+{
+	Count : 1
+	Time : 0:00:00.000371
+	TotalInstance : 1
+	Instance : 1
+	Injected : 7.5
+	OpName : Ops.ADD
+	Original : 7.5
+ }
+{
+	Count : 2
+	Time : 0:00:00.000835
+	TotalInstance : 1
+	Instance : 1
+	Injected : 22.5
+	OpName : Ops.MUL
+	Original : 22.5
+ }
+
+---------------------------------------
+Done injections

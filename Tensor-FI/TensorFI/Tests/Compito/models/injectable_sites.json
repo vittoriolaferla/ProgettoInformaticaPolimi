@@ -1,0 +1,1286 @@
+{
+    "AddV2": [
+        {
+            "name": "yolo_v3_model/add_20",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/add_13",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/add_10",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/add_18",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/add_19",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/add_14",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/add_21",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/add_16",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/add_22",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/add_12",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/add",
+            "size": "(1, 64, 208, 208)"
+        },
+        {
+            "name": "yolo_v3_model/add_23",
+            "size": "(1, 507, 2)"
+        },
+        {
+            "name": "yolo_v3_model/add_11",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/add_1",
+            "size": "(1, 128, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/add_2",
+            "size": "(1, 128, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/add_3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/add_4",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/add_5",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/add_6",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/add_8",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/add_9",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/add_17",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/add_15",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/add_27",
+            "size": "(1, 10647, 1)"
+        },
+        {
+            "name": "yolo_v3_model/add_25",
+            "size": "(1, 8112, 2)"
+        },
+        {
+            "name": "yolo_v3_model/add_26",
+            "size": "(1, 10647, 1)"
+        },
+        {
+            "name": "yolo_v3_model/add_24",
+            "size": "(1, 2028, 2)"
+        },
+        {
+            "name": "yolo_v3_model/add_7",
+            "size": "(1, 256, 52, 52)"
+        }
+    ],
+    "BiasAdd": [
+        {
+            "name": "yolo_v3_model/conv2d_74/BiasAdd",
+            "size": "(1, 255, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/conv2d_58/BiasAdd",
+            "size": "(1, 255, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/conv2d_66/BiasAdd",
+            "size": "(1, 255, 26, 26)"
+        }
+    ],
+    "Conv2D1x1": [
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_41/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_27/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_35/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_46/Conv2D",
+            "size": "(1, 512, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_31/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_29/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_37/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_33/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_44/Conv2D",
+            "size": "(1, 512, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_39/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_48/Conv2D",
+            "size": "(1, 512, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_52/Conv2D",
+            "size": "(1, 512, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_50/Conv2D",
+            "size": "(1, 512, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_54/Conv2D",
+            "size": "(1, 512, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_64/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_74/Conv2D",
+            "size": "(1, 255, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_2/Conv2D",
+            "size": "(1, 32, 208, 208)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_5/Conv2D",
+            "size": "(1, 64, 104, 104)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_72/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_7/Conv2D",
+            "size": "(1, 64, 104, 104)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_10/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_12/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_14/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_16/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_70/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_18/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_20/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_22/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_68/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_62/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_24/Conv2D",
+            "size": "(1, 128, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_59/Conv2D",
+            "size": "(1, 256, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_56/Conv2D",
+            "size": "(1, 512, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_66/Conv2D",
+            "size": "(1, 255, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_60/Conv2D",
+            "size": "(1, 256, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_67/Conv2D",
+            "size": "(1, 128, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 1,
+            "name": "yolo_v3_model/conv2d_58/Conv2D",
+            "size": "(1, 255, 13, 13)",
+            "strides": 1
+        }
+    ],
+    "Conv2D3x3": [
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_36/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_25/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_47/Conv2D",
+            "size": "(1, 1024, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_30/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_32/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_28/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_34/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_38/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_40/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_45/Conv2D",
+            "size": "(1, 1024, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_42/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_49/Conv2D",
+            "size": "(1, 1024, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_51/Conv2D",
+            "size": "(1, 1024, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_53/Conv2D",
+            "size": "(1, 1024, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d/Conv2D",
+            "size": "(1, 32, 416, 416)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_73/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_3/Conv2D",
+            "size": "(1, 64, 208, 208)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_6/Conv2D",
+            "size": "(1, 128, 104, 104)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_8/Conv2D",
+            "size": "(1, 128, 104, 104)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_71/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_11/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_13/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_15/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_17/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_19/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_21/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_23/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_69/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_65/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_55/Conv2D",
+            "size": "(1, 1024, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_57/Conv2D",
+            "size": "(1, 1024, 13, 13)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_61/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_63/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 1
+        }
+    ],
+    "Conv2D3x3S2": [
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_26/Conv2D",
+            "size": "(1, 512, 26, 26)",
+            "strides": 2
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_43/Conv2D",
+            "size": "(1, 1024, 13, 13)",
+            "strides": 2
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_1/Conv2D",
+            "size": "(1, 64, 208, 208)",
+            "strides": 2
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_4/Conv2D",
+            "size": "(1, 128, 104, 104)",
+            "strides": 2
+        },
+        {
+            "kernel_size": 3,
+            "name": "yolo_v3_model/conv2d_9/Conv2D",
+            "size": "(1, 256, 52, 52)",
+            "strides": 2
+        }
+    ],
+    "Exp": [
+        {
+            "name": "yolo_v3_model/Exp_2",
+            "size": "(1, 8112, 2)"
+        },
+        {
+            "name": "yolo_v3_model/Exp",
+            "size": "(1, 507, 2)"
+        },
+        {
+            "name": "yolo_v3_model/Exp_1",
+            "size": "(1, 2028, 2)"
+        }
+    ],
+    "FusedBatchNormV3": [
+        {
+            "name": "yolo_v3_model/batch_normalization_41/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_37/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_50/FusedBatchNormV3",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_49/FusedBatchNormV3",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_29/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_28/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_27/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_31/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_36/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_33/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_32/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_40/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_26/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_25/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_35/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_39/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_38/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_34/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_30/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_70/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_71/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_69/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_42/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_65/FusedBatchNormV3",
+            "size": "(1, 128, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_44/FusedBatchNormV3",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_48/FusedBatchNormV3",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_45/FusedBatchNormV3",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_43/FusedBatchNormV3",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_51/FusedBatchNormV3",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_68/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_46/FusedBatchNormV3",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_47/FusedBatchNormV3",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_58/FusedBatchNormV3",
+            "size": "(1, 256, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization/FusedBatchNormV3",
+            "size": "(1, 32, 416, 416)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_1/FusedBatchNormV3",
+            "size": "(1, 64, 208, 208)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_2/FusedBatchNormV3",
+            "size": "(1, 32, 208, 208)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_4/FusedBatchNormV3",
+            "size": "(1, 128, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_56/FusedBatchNormV3",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_5/FusedBatchNormV3",
+            "size": "(1, 64, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_6/FusedBatchNormV3",
+            "size": "(1, 128, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_67/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_7/FusedBatchNormV3",
+            "size": "(1, 64, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_8/FusedBatchNormV3",
+            "size": "(1, 128, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_9/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_10/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_11/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_12/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_13/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_14/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_15/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_16/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_64/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_17/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_18/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_20/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_21/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_22/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_23/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_24/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_57/FusedBatchNormV3",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_19/FusedBatchNormV3",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_3/FusedBatchNormV3",
+            "size": "(1, 64, 208, 208)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_52/FusedBatchNormV3",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_59/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_61/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_62/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_53/FusedBatchNormV3",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_54/FusedBatchNormV3",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_60/FusedBatchNormV3",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_63/FusedBatchNormV3",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_55/FusedBatchNormV3",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/batch_normalization_66/FusedBatchNormV3",
+            "size": "(1, 128, 52, 52)"
+        }
+    ],
+    "LeakyRelu": [
+        {
+            "name": "yolo_v3_model/LeakyRelu_27",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_48",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_41",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_43",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_47",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_44",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_42",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_49",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_50",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_45",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_46",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_51",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu",
+            "size": "(1, 32, 416, 416)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_36",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_1",
+            "size": "(1, 64, 208, 208)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_2",
+            "size": "(1, 32, 208, 208)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_3",
+            "size": "(1, 64, 208, 208)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_4",
+            "size": "(1, 128, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_5",
+            "size": "(1, 64, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_6",
+            "size": "(1, 128, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_40",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_32",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_7",
+            "size": "(1, 64, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_8",
+            "size": "(1, 128, 104, 104)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_39",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_9",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_26",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_10",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_12",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_25",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_13",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_14",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_35",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_15",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_16",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_17",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_18",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_20",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_21",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_22",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_23",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_11",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_38",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_30",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_34",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_58",
+            "size": "(1, 256, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_29",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_37",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_33",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_31",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_28",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_24",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_70",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_71",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_69",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_68",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_64",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_67",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_66",
+            "size": "(1, 128, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_56",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_55",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_57",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_19",
+            "size": "(1, 256, 52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_59",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_52",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_61",
+            "size": "(1, 256, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_65",
+            "size": "(1, 128, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_62",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_53",
+            "size": "(1, 1024, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_54",
+            "size": "(1, 512, 13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_60",
+            "size": "(1, 512, 26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/LeakyRelu_63",
+            "size": "(1, 256, 26, 26)"
+        }
+    ],
+    "Mul": [
+        {
+            "name": "yolo_v3_model/mul_5",
+            "size": "(1, 8112, 2)"
+        },
+        {
+            "name": "yolo_v3_model/meshgrid_2/mul_1",
+            "size": "(52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/meshgrid_2/mul",
+            "size": "(52, 52)"
+        },
+        {
+            "name": "yolo_v3_model/mul_4",
+            "size": "(1, 8112, 2)"
+        },
+        {
+            "name": "yolo_v3_model/mul_3",
+            "size": "(1, 2028, 2)"
+        },
+        {
+            "name": "yolo_v3_model/meshgrid_1/mul_1",
+            "size": "(26, 26)"
+        },
+        {
+            "name": "yolo_v3_model/meshgrid/mul",
+            "size": "(13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/mul",
+            "size": "(1, 507, 2)"
+        },
+        {
+            "name": "yolo_v3_model/mul_2",
+            "size": "(1, 2028, 2)"
+        },
+        {
+            "name": "yolo_v3_model/meshgrid/mul_1",
+            "size": "(13, 13)"
+        },
+        {
+            "name": "yolo_v3_model/mul_1",
+            "size": "(1, 507, 2)"
+        },
+        {
+            "name": "yolo_v3_model/meshgrid_1/mul",
+            "size": "(26, 26)"
+        }
+    ],
+    "RealDiv": [
+        {
+            "name": "yolo_v3_model/div_3",
+            "size": "(1, 10647, 1)"
+        },
+        {
+            "name": "yolo_v3_model/div_2",
+            "size": "(1, 10647, 1)"
+        },
+        {
+            "name": "yolo_v3_model/div_1",
+            "size": "(1, 10647, 1)"
+        },
+        {
+            "name": "yolo_v3_model/div",
+            "size": "(1, 10647, 1)"
+        }
+    ],
+    "Sigmoid": [
+        {
+            "name": "yolo_v3_model/Sigmoid_8",
+            "size": "(1, 8112, 80)"
+        },
+        {
+            "name": "yolo_v3_model/Sigmoid_7",
+            "size": "(1, 8112, 1)"
+        },
+        {
+            "name": "yolo_v3_model/Sigmoid_6",
+            "size": "(1, 8112, 2)"
+        },
+        {
+            "name": "yolo_v3_model/Sigmoid_5",
+            "size": "(1, 2028, 80)"
+        },
+        {
+            "name": "yolo_v3_model/Sigmoid_4",
+            "size": "(1, 2028, 1)"
+        },
+        {
+            "name": "yolo_v3_model/Sigmoid_3",
+            "size": "(1, 2028, 2)"
+        },
+        {
+            "name": "yolo_v3_model/Sigmoid",
+            "size": "(1, 507, 2)"
+        },
+        {
+            "name": "yolo_v3_model/Sigmoid_2",
+            "size": "(1, 507, 80)"
+        },
+        {
+            "name": "yolo_v3_model/Sigmoid_1",
+            "size": "(1, 507, 1)"
+        }
+    ]
+}

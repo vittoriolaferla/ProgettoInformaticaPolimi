@@ -1,0 +1,7 @@
+ScalarFaultType: None 
+TensorFaultType: singleFlip
+
+Ops:
+  - ADD=1.0
+
+InjectMode: 'errorRate' 
