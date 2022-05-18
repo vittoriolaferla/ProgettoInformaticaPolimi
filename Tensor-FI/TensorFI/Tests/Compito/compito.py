@@ -3,13 +3,9 @@
 
 
 #from contextlib import nullcontext
-from curses import erasechar
-from importlib.resources import path
+
 import json
-from random import sample
-from tokenize import Floatnumber, String
-from types import NoneType
-import matplotlib.pyplot as plt
+
 from scipy import stats
 import numpy as np
 import codecs
@@ -25,7 +21,7 @@ pathToConfigFile="/home/vittorio/Scrivania/TensorFI/confFiles/tests.yaml"
 
 pathToVariables="/usr/local/lib/python2.7/dist-packages/TensorFI/variables.txt"
 
-pathToModel="/home/vittorio/TensorFI/Tests/Compito"
+pathToModel="/home/vittorio/PycharmProjects/TEnsorFI/Tensor-FI/Tensor-FI/TensorFI/Tests/Compito"
 
 #Mancano EXP e biasADD e batchNorm
 #EXP=MUL        BIAS ADD CE         BATCH NORM MI SERVE CALCOLARE IL RISULTATO CON LA CLASSE DELLA FUNZIONE
