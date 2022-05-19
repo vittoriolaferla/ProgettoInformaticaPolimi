@@ -23,18 +23,7 @@ pathToVariables="/usr/local/lib/python2.7/dist-packages/TensorFI/variables.txt"
 
 pathToModel="/home/vittorio/PycharmProjects/TEnsorFI/Tensor-FI/Tensor-FI/TensorFI/Tests/Compito"
 
-#Mancano EXP e biasADD e batchNorm
-#EXP=MUL        BIAS ADD CE         BATCH NORM MI SERVE CALCOLARE IL RISULTATO CON LA CLASSE DELLA FUNZIONE
-#                                   TF.NN.BATCHNORMALIZATION
-#                                   MEDIA=0.1 VARIANZA=0
-#                                   GUARDARE UN MODELLO CON BATCHNORM GUARDARE SU DOCUMENTAZIONE SU TENSORFLOW
-#                                   PER LA BIAS ADD 
-#                                   MODIFICARE COND PERTURB IN MODO TALE CHE SE DIMENSIONE UNO CHIAMO QUELLE OPERAZIONE SE DIMENSIONE 4 CHIAMO TUTTE LE OPERAZIONE
-#                                   QUASI SHATTERGLASS COME SHUTTERGLASS IDENTICO
-         #                          UNCATHEGORIZED E UN RANDOM SEMPLICE ESTRAGGO A CASO NELLA FEATUREMAP E METTO NELLA STESSA E GUARDO SE SULLA STESSA FEATURE MAP LO METTO LI RANDOMICO INVECE SE E LUNGA 3 LO METTO SULLA STESSA FEATURE MA SICURAMENTE SULLA STESSA FEATUREMAP
-         #      SCRIVERE LA RELAZIONE
-         # 
- 
+
 input= input("Scegli l'operazione da iniettare: ADD=1  CONVULUTION=2   DIV=3   RELU=4   MUL=5   SIGMOID=6   BAISADD=7   BATCHNORM=8\n")
 if(input==1):
     op= " - ADD=1.0"
