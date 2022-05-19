@@ -21,52 +21,63 @@ pathToConfigFile="/home/vittorio/Scrivania/TensorFI/confFiles/tests.yaml"
 
 pathToVariables="/usr/local/lib/python2.7/dist-packages/TensorFI/variables.txt"
 
-pathToModel="/home/vittorio/PycharmProjects/TEnsorFI/Tensor-FI/Tensor-FI/TensorFI/Tests/Compito"
+pathToFolder = "/home/vittorio/TensorFI/Tests/Compito"
 
+# Mancano EXP e biasADD e batchNorm
+# EXP=MUL        BIAS ADD CE         BATCH NORM MI SERVE CALCOLARE IL RISULTATO CON LA CLASSE DELLA FUNZIONE
+#                                   TF.NN.BATCHNORMALIZATION
+#                                   MEDIA=0.1 VARIANZA=0
+#                                   GUARDARE UN MODELLO CON BATCHNORM GUARDARE SU DOCUMENTAZIONE SU TENSORFLOW
+#                                   PER LA BIAS ADD
+#                                   MODIFICARE COND PERTURB IN MODO TALE CHE SE DIMENSIONE UNO CHIAMO QUELLE OPERAZIONE SE DIMENSIONE 4 CHIAMO TUTTE LE OPERAZIONE
+#                                   QUASI SHATTERGLASS COME SHUTTERGLASS IDENTICO
+#                          UNCATHEGORIZED E UN RANDOM SEMPLICE ESTRAGGO A CASO NELLA FEATUREMAP E METTO NELLA STESSA E GUARDO SE SULLA STESSA FEATURE MAP LO METTO LI RANDOMICO INVECE SE E LUNGA 3 LO METTO SULLA STESSA FEATURE MA SICURAMENTE SULLA STESSA FEATUREMAP
+#      SCRIVERE LA RELAZIONE
+#
 
-input= input("Scegli l'operazione da iniettare: ADD=1  CONVULUTION=2   DIV=3   RELU=4   MUL=5   SIGMOID=6   BAISADD=7   BATCHNORM=8\n")
-if(input==1):
-    op= " - ADD=1.0"
-    pathToValue= pathToModel + "/models/S1_add/value_analysis.txt"
-    pathToModel=pathToModel + "/models/S1_add/S1_add_spatial_model.json"
-    pathToCount=pathToModel + "/models/S1_add/add_S1_anomalies_count.json"
-elif(input==2):
-    op=" - CONV2D=1.0"
-    pathToValue=pathToModel + "/models/S1_convolution/value_analysis.txt"
-    pathToModel=pathToModel + "/models/S1_convolution/S1_convolution_spatial_model.json"
-    pathToCount=pathToModel + "/models/S1_convolution/convolution_S1_anomalies_count.json"
+input = input(
+    "Scegli l'operazione da iniettare: ADD=1  CONVULUTION=2   DIV=3   RELU=4   MUL=5   SIGMOID=6   BAISADD=7   BATCHNORM=8\n")
+if (input == 1):
+    op = " - ADD=1.0"
+    pathToValue = pathToFolder + "/models/S1_add/value_analysis.txt"
+    pathToModel = pathToFolder + "/models/S1_add/S1_add_spatial_model.json"
+    pathToCount = pathToFolder + "/models/S1_add/add_S1_anomalies_count.json"
+elif (input == 2):
+    op = " - CONV2D=1.0"
+    pathToValue = pathToFolder + "/models/S1_convolution/value_analysis.txt"
+    pathToModel = pathToFolder + "/models/S1_convolution/S1_convolution_spatial_model.json"
+    pathToCount = pathToFolder + "/models/S1_convolution/convolution_S1_anomalies_count.json"
 
-elif(input==3):
-    op="- SUB=1.0"
-    pathToValue=pathToModel + "/models/S1_div/value_analysis.txt"
-    pathToModel=pathToModel + "/models/S1_div/S1_div_spatial_model.json"
-    pathToCount=pathToModel + "/models/S1_div/div_S1_anomalies_count.json"
-elif(input==4):
-    op="- RELU=1.0"
-    pathToValue=pathToModel + "/models/S1_leaky_relu/value_analysis.txt"
-    pathToModel=pathToModel + "/models/S1_leaky_relu/S1_leaky_relu_spatial_model.json"
-    pathToCount=pathToModel + "/models/S1_leaky_relu/leaky_relu_S1_anomalies_count.json"
-elif(input==5):
-    op="- MUL=1.0"
-    pathToValue=pathToModel + "/models/S1_mul/value_analysis.txt"
-    pathToModel=pathToModel + "/models/S1_mul/S1_mul_spatial_model.json"
-    pathToCount=pathToModel + "/models/S1_mul/mul_S1_anomalies_count.json"
-elif(input ==6):
-    op=" - SIGMOID=1.0"
-    pathToValue=pathToModel + "/models/S1_sigmoid/value_analysis.txt"
-    pathToModel=pathToModel + "/models/S1_sigmoid/S1_sigmoid_spatial_model.json"
-    pathToCount=pathToModel + "/models/S1_sigmoid/sigmoid_S1_anomalies_count.json"
-elif(input==7):
-    op=" - BIASADD=1.0"
-    pathToValue=pathToModel + "/models/S1_biasadd/value_analysis.txt"
-    pathToModel=pathToModel + "/models/S1_biasadd/S1_biasadd_spatial_model.json"
-    pathToCount=pathToModel + "/models/S1_biasadd/biasadd_S1_anomalies_count.json"
-elif(input==8):
-    op=" . ADD=1.0"
-    pathToValue= pathToModel + "/models/S1_batch_norm/value_analysis.txt"
-    pathToModel= pathToModel + "models/S1_batch_norm/S1_batch_norm_spatial_model.json"
-    pathToCount=pathToModel + " /models/S1_batch_norm/batch_norm_S1_anomalies_count.json"
-
+elif (input == 3):
+    op = "- SUB=1.0"
+    pathToValue = pathToFolder + "/models/S1_div/value_analysis.txt"
+    pathToModel = pathToFolder + "/models/S1_div/S1_div_spatial_model.json"
+    pathToCount = pathToFolder + "/models/S1_div/div_S1_anomalies_count.json"
+elif (input == 4):
+    op = "- RELU=1.0"
+    pathToValue = pathToFolder + "/models/S1_leaky_relu/value_analysis.txt"
+    pathToModel = pathToFolder + "/models/S1_leaky_relu/S1_leaky_relu_spatial_model.json"
+    pathToCount = pathToFolder + "/models/S1_leaky_relu/leaky_relu_S1_anomalies_count.json"
+elif (input == 5):
+    op = "- MUL=1.0"
+    pathToValue = pathToFolder + "/models/S1_mul/value_analysis.txt"
+    pathToModel = pathToFolder + "/models/S1_mul/S1_mul_spatial_model.json"
+    pathToCount = pathToFolder + "/models/S1_mul/mul_S1_anomalies_count.json"
+elif (input == 6):
+    op = " - SIGMOID=1.0"
+    pathToValue = pathToFolder + "/models/S1_sigmoid/value_analysis.txt"
+    pathToModel = pathToFolder + "/models/S1_sigmoid/S1_sigmoid_spatial_model.json"
+    pathToCount = pathToFolder + "/models/S1_sigmoid/sigmoid_S1_anomalies_count.json"
+elif (input == 7):
+    op = " - BIASADD=1.0"
+    pathToValue = pathToFolder + "/models/S1_biasadd/value_analysis.txt"
+    pathToModel = pathToFolder + "/models/S1_biasadd/S1_biasadd_spatial_model.json"
+    pathToCount = pathToFolder + "/models/S1_biasadd/biasadd_S1_anomalies_count.json"
+elif (input == 8):
+    op = " . ADD=1.0"
+    pathToValue = pathToFolder + "/models/S1_batch_norm/value_analysis.txt"
+    pathToModel = pathToFolder + "models/S1_batch_norm/S1_batch_norm_spatial_model.json"
+    pathToCount = pathToFolder + " /models/S1_batch_norm/batch_norm_S1_anomalies_count.json"
 
 global MAX
 global RANDOM
