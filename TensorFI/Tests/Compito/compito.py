@@ -23,18 +23,6 @@ pathToVariables="/usr/local/lib/python2.7/dist-packages/TensorFI/variables.txt"
 
 pathToFolder = "/home/vittorio/PycharmProjects/TEnsorFI/Tensor-FI/TensorFI/Tests/Compito"
 
-# Mancano EXP e biasADD e batchNorm
-# EXP=MUL        BIAS ADD CE         BATCH NORM MI SERVE CALCOLARE IL RISULTATO CON LA CLASSE DELLA FUNZIONE
-#                                   TF.NN.BATCHNORMALIZATION
-#                                   MEDIA=0.1 VARIANZA=0
-#                                   GUARDARE UN MODELLO CON BATCHNORM GUARDARE SU DOCUMENTAZIONE SU TENSORFLOW
-#                                   PER LA BIAS ADD
-#                                   MODIFICARE COND PERTURB IN MODO TALE CHE SE DIMENSIONE UNO CHIAMO QUELLE OPERAZIONE SE DIMENSIONE 4 CHIAMO TUTTE LE OPERAZIONE
-#                                   QUASI SHATTERGLASS COME SHUTTERGLASS IDENTICO
-#                          UNCATHEGORIZED E UN RANDOM SEMPLICE ESTRAGGO A CASO NELLA FEATUREMAP E METTO NELLA STESSA E GUARDO SE SULLA STESSA FEATURE MAP LO METTO LI RANDOMICO INVECE SE E LUNGA 3 LO METTO SULLA STESSA FEATURE MA SICURAMENTE SULLA STESSA FEATUREMAP
-#      SCRIVERE LA RELAZIONE
-#
-
 input = input(
     "Scegli l'operazione da iniettare: ADD=1  CONVULUTION=2   DIV=3   RELU=4   MUL=5   SIGMOID=6   BAISADD=7   EXP=8\n")
 if(input==1):
@@ -117,7 +105,7 @@ value= myRV.rvs()
 if(value==1):
     value=np.random.uniform(low=-1 , high=1)
 elif(value==2):
-    value=np.random.randint(low=100000)     #Scelto un valore tra 0 e low intero
+    value=np.random.randint(low=100000)
 elif(value==3):
     value=""
 elif(value==4):
@@ -276,7 +264,7 @@ else:
         MAX=dictionary["MAX"]
         RANDOM=dictionary["RANDOM"]
         g=open(pathToConfigFile,"w")
-        g.write("ScalarFaultType: None \nTensorFaultType: sameFeatureRandom\n\nOps:\n "+op+"\n\nInjectMode: 'errorRate' ")
+        g.write("ScalarFaultType: None \nTensorFaultType: columnbitFlip-tensor\n\nOps:\n "+op+"\n\nInjectMode: 'errorRate' ")
         g.close()
         if(dictionary.get("RANDOM")==0):
             bool=True
@@ -390,7 +378,7 @@ else:
             print("scritto")
     
 
-    if(operation=="6"):
+    if(operation=="6"or operation=="7"):
         print("Operazione shutterGlass")
         dictionary=Data[cardinalita]["PF"][operation]
         print(dictionary)
