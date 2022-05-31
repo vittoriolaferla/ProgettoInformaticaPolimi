@@ -2,6 +2,6 @@ ScalarFaultType: None
 TensorFaultType: singleFlip
 
 Ops:
-  - ADD=1.0
+  - ALL=1.0
 
 InjectMode: 'errorRate' 
