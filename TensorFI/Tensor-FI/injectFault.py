@@ -230,9 +230,9 @@ def condPerturb(op, res):
 					print("dentro perturb " + str(already))
 					print(op)
 					print(randInstanceMap[op])
-					if(op!=Ops.ADD):	 
-						res = perturb(res)
-						already=False 
+					#if(op!=Ops.ADD):
+					res = perturb(res)
+					already=False
 					faultLog.updateInjectedInstance(randInstanceMap[op], instance)
 					faultLog.commit()
 
