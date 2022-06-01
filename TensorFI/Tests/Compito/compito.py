@@ -457,3 +457,23 @@ else:
         g.write(str(value) + "\n"+str(cardinalita)+"\n"+str(keys[key]))
         print("scritto")
 
+    # import TensorFI.fiConfig as fi
+    # operation=[]
+    # g=open("/home/vittorio/TensorFI/confFiles/tests.yaml","a")
+    # g.write("\nInstances:\n")
+
+    # for n in tf.get_default_graph().as_graph_def().node:
+
+    # string=str(n.op)
+    # for f in fi.Ops:
+    # if(f.value==string.upper()):
+    #  #print(str(f.value) + " \n\n")
+    # operation.append(f.value)
+    # analized=[]
+    # for op in operation:
+    #   if(analized.count(op)==0):
+    # print( str(op) +" = "+ str(operation.count(op)))
+    #      g.write(" - "+str(op) +" = "+ str(operation.count(op))+"\n")
+    #     analized.append(op)
+    # g.write("\nInjectMode: "+ str("dynamicInstance"))
+    # g.close()
